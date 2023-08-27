@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Keeper/static/css/main.04fadfec.css",
+    "main.js": "/Keeper/static/js/main.a1cd38e0.js",
+    "static/js/787.28cb0dcd.chunk.js": "/Keeper/static/js/787.28cb0dcd.chunk.js",
+    "index.html": "/Keeper/index.html",
+    "main.04fadfec.css.map": "/Keeper/static/css/main.04fadfec.css.map",
+    "main.a1cd38e0.js.map": "/Keeper/static/js/main.a1cd38e0.js.map",
+    "787.28cb0dcd.chunk.js.map": "/Keeper/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.04fadfec.css",
+    "static/js/main.a1cd38e0.js"
+  ]
+}
