@@ -50,12 +50,16 @@ footer p {
   position: relative;
   overflow: auto; /*  new */
   min-height: 200px; /*  new */
-  /*  new */
+  text-align: left;/*  new */
 }
 
 .note h1 {
   font-size: 1.1em;
-  margin-bottom: 18px;
+  margin-bottom: 10px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  white-space: normal; /*  */
+  word-wrap: break-word;
 }
 
 .note p {
@@ -69,8 +73,8 @@ footer p {
 
 .note button {
   position: absolute;
-  top: 0px;
-  right: 0px;
+  top: 5px;
+  right: 5px;
   background: rgb(218, 59, 59);
   border: none;
   color: #fff;
@@ -78,8 +82,8 @@ footer p {
   cursor: pointer;
   border-radius: 7px;
   margin: 0px;
-  width: 100px;
-  height: 30px;
+  width: 85px;
+  height: 25px;
 }
 
 form {

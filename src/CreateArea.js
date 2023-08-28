@@ -18,12 +18,14 @@ function CreateArea(props) {
   }
 
   function submitNote(event) {
+    event.preventDefault();
+    if (note.content.trim() !== "") { // Check if content is not empty or only whitespace
     props.onAdd(note);
     setNote({
       title: "",
       content: ""
     });
-    event.preventDefault();
+   }
   }
 
   return (
