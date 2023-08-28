@@ -73,8 +73,8 @@ footer p {
 
 .note button {
   position: absolute;
-  top: 5px;
-  right: 5px;
+  top: 0px;
+  right: 0px;
   background: rgb(218, 59, 59);
   border: none;
   color: #fff;
